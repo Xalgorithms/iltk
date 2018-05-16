@@ -1,0 +1,26 @@
+{
+  "name": "commands",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "author": "Hayk Pilosyan <hayk.pilos@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "1.6.0",
+    "axios": "0.18.0",
+    "ubl": "git+ssh://git@github.com/Xalgorithms/xa-ubl-js.git",
+    "uuid": "3.2.1"
+  },
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
