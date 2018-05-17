@@ -7,7 +7,7 @@
     "commit": "git-cz"
   },
   "author": "Hayk Pilosyan <hayk.pilos@gmail.com>",
-  "license": "MIT",
+  "license": "Apache 2.0",
   "dependencies": {
     "@google-cloud/storage": "1.6.0",
     "axios": "0.18.0",
